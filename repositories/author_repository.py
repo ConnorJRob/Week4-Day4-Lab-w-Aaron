@@ -14,9 +14,6 @@ def save(author):
     author.id = id
     return author
 
-# def save(book):
-#     sql = "INSERT INTO books (title, genre, publisher, author) VALUES (%s, )"
-
 ##select all authors
 def select_all():
     authors= []
